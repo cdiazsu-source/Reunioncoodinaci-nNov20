@@ -121,7 +121,7 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .bo .pic { width: 706px; flex-direction: row; gap: 16px; }
 .bo .pic img { width: 345px; height: 460px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
 .hk h2 { margin-bottom: 24px; }
-.hk .top .est { flex: 1; }
+.hk .top .est { flex: none; width: 300px; }
 .hk .top .card, .hk .wide { padding: 32px; }
 .hk .top .val { font-size: 36px; }
 .hk .top .ph, .hk .wide .ph { font-size: 26px; }
@@ -139,5 +139,13 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .rd .pic img { width: 620px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
 .rd .pic img.r1 { height: 330px; }
 .rd .pic img.r2 { height: 250px; }
+.iv h2 { font-size: 54px; margin-bottom: 20px; }
+.iv .top .est { flex: none; width: 300px; }
+.iv .top .card, .iv .wide { padding: 32px; }
+.iv .top .val { font-size: 36px; }
+.iv .top .ph, .iv .wide .dim { font-size: 26px; }
+.iv .pic { width: 740px; flex-direction: row; flex-wrap: wrap; gap: 8px 16px; align-content: flex-start; }
+.iv .pic img { width: 362px; height: 468px; object-fit: cover; object-position: 50% 0; border-radius: 12px; background: #FFFFFF; border: 1px solid #D5D0C2; box-sizing: border-box; }
+.iv .pic .cap { width: 740px; font-size: 24px; line-height: 1.3; color: #5A6675; }
 .lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
 table { font-size: 30px; color: #3D4B5C; width: 100%; }

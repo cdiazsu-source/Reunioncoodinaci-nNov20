@@ -131,7 +131,7 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .bo .pic { width: 706px; flex-direction: row; gap: 16px; }
 .bo .pic img { width: 345px; height: 460px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
 .hk h2 { margin-bottom: 24px; }
-.hk .top .est { flex: 1; }
+.hk .top .est { flex: none; width: 300px; }
 .hk .top .card, .hk .wide { padding: 32px; }
 .hk .top .val { font-size: 36px; }
 .hk .top .ph, .hk .wide .ph { font-size: 26px; }
@@ -149,6 +149,14 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .rd .pic img { width: 620px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
 .rd .pic img.r1 { height: 330px; }
 .rd .pic img.r2 { height: 250px; }
+.iv h2 { font-size: 54px; margin-bottom: 20px; }
+.iv .top .est { flex: none; width: 300px; }
+.iv .top .card, .iv .wide { padding: 32px; }
+.iv .top .val { font-size: 36px; }
+.iv .top .ph, .iv .wide .dim { font-size: 26px; }
+.iv .pic { width: 740px; flex-direction: row; flex-wrap: wrap; gap: 8px 16px; align-content: flex-start; }
+.iv .pic img { width: 362px; height: 468px; object-fit: cover; object-position: 50% 0; border-radius: 12px; background: #FFFFFF; border: 1px solid #D5D0C2; box-sizing: border-box; }
+.iv .pic .cap { width: 740px; font-size: 24px; line-height: 1.3; color: #5A6675; }
 .lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
 table { font-size: 30px; color: #3D4B5C; width: 100%; }
 
@@ -300,14 +308,16 @@ section.slide table{border-collapse:collapse}
 <div class="row">
 <div class="side">
 <div class="top">
-<div class="card est"><p class="k">ESTADO</p><p class="val">Sin estado registrado</p></div></div>
+<div class="card est"><p class="k">ESTADO</p><p class="val">Sin estado registrado</p></div>
+<div class="card"><p class="k">TRABAJO REALIZADO</p><p class="ph">Se hizo una investigación para mejorar la calidad, mediante edición, de varios videos con mala calidad de audio o video.</p><p class="ph">Se actualizaron dos videos de Hacks informáticos anteriores que tenían mala calidad de sonido.</p></div>
+</div>
 <div class="card wide"><p class="k">PRÓXIMO PASO</p><p class="ph">Asignar contenidos a monitores, con al menos 2 ya hechos.</p><p class="ph">Ajuste previsto: reestructurar los Hacks para incluir otros contenidos.</p></div>
 </div>
 <div class="pic"><div class="shot"><img src="assets/hacks-gancho.png" alt="Video «Programar un correo con voz para celu», portada: el robot de Hacks UIFCE y la pregunta «¿Tienes que enviar un correo a primera hora… y no quieres madrugar?»."></div><div class="shot"><img src="assets/hacks-paso2.png" alt="Video de Hacks UIFCE, paso 2 de 4: tocar la flecha junto a Enviar y elegir «Programar envío» en Gmail."></div><div class="shot"><img src="assets/hacks-listo.png" alt="Video de Hacks UIFCE: «¡Listo! Gmail lo envía por ti», con el correo en la carpeta Programados."></div><p class="cap">Video «Programar un correo» (borrador): portada, paso 2 y resultado.</p></div>
 </div>
 <p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
 <p class="pg">10</p>
-<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué piezas están listas para difundirse y cuáles esperan aprobación? Se actualizaron dos videos de Hacks informáticos anteriores que tenían mala calidad de sonido. Las capturas son del video «Programar un correo con voz para celu» (borrador): cómo programar el envío de un correo en Gmail en cuatro pasos.</aside>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué piezas están listas para difundirse y cuáles esperan aprobación? Se actualizaron dos videos de Hacks informáticos anteriores que tenían mala calidad de sonido. Se hizo una investigación para mejorar la calidad, mediante edición, de varios videos con mala calidad de audio o video. Las capturas son del video «Programar un correo con voz para celu» (borrador): cómo programar el envío de un correo en Gmail en cuatro pasos.</aside>
 </section>
 <section id="carteleras" class="slide ent li cr" data-i="10" data-transition="fade">
 <p class="eyebrow">FRENTE 2 · PRODUCCIÓN Y DIFUSIÓN VISUAL · 3 DE 5</p>
@@ -351,7 +361,7 @@ section.slide table{border-collapse:collapse}
 <h2>Línea gráfica de Cursos Libres</h2>
 <div class="cards">
 <div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
-<div class="card"><p class="k">AVANCE</p><p class="val">50 %</p><p class="ph">OK.</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">80 %</p><p class="ph">OK.</p></div>
 <div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Actualizar la línea gráfica física con los cursos nuevos.</p><p class="ph">Ajuste previsto: meter SAP. Comentario en la hoja: agregar el curso nuevo «Introducción a SAP».</p></div>
 </div>
 <p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
@@ -446,17 +456,22 @@ section.slide table{border-collapse:collapse}
 <p class="pg">19</p>
 <aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Se creó el proyecto en formato HTML para formatos de redes sociales y TV: un repositorio replicable con noticias tecnológicas. Edición #1, noviembre 2026: cdiazsu-source.github.io/ET-BoletinUIFCE1/edicion-01.html#p=c</aside>
 </section>
-<section id="ia-video" class="slide ent" data-i="19" data-transition="fade">
+<section id="ia-video" class="slide ent li iv" data-i="19" data-transition="fade">
 <p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 4 DE 6</p>
 <h2>Repositorio de material con IA y automatización de producción de video</h2>
-<div class="cards">
-<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="row">
+<div class="side">
+<div class="top">
+<div class="card est"><p class="k">ESTADO</p><p class="val">Completado</p></div>
 <div class="card"><p class="k">AVANCE</p><p class="val">100 %</p><p class="ph">Notebook. Documentar formalmente el proyecto y establecer un formato estándar (prompt) para que todos los videos sean de calidad.</p><p class="ph">Proponer entregables concretos y alternativas (matriz DOFA).</p></div>
-<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<div class="card wide"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<div class="pic"><img src="assets/ia-video-pagina1.png" alt="Documento «Proyecto de creación de videos 2026-2S», página 1: introducción, objetivos y paso a paso para producir videos con NotebookLM."><img src="assets/ia-video-pagina3.png" alt="Documento «Proyecto de creación de videos 2026-2S», página 3: paleta oficial de la Unidad, formatos de video y uso gratuito con sus límites."><p class="cap">Documento «Proyecto de creación de videos · 2026-2S»: páginas 1 y 3 de 4.</p></div>
 </div>
 <p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
 <p class="pg">20</p>
-<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme?</aside>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Las capturas son del documento «Proyecto de creación de videos · 2026-2S» (4 páginas, UIFCE): flujo repetible de nueve pasos con NotebookLM, línea gráfica y paleta de la Unidad, uso gratuito y límites, y recomendaciones con un video piloto como próximo paso.</aside>
 </section>
 <section id="repositorio" class="slide ent li rd" data-i="20" data-transition="fade">
 <p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 5 DE 6</p>
