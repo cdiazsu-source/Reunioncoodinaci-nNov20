@@ -25,7 +25,6 @@ Datos tomados de la hoja «Estrategias Tecnológicas-Planeación 2026-2».
 
 | Entregable | Estado | Avance | Próximo paso |
 |---|---|---|---|
-| **Recuperación o recreación de la cuenta de Instagram** | En proceso | 50 %<br>Se está solicitando un nuevo correo institucional para las redes UIFCE.<br>Comentario: correo del profesor indicando que no se le ha enviado ninguna contraseña. | Sin entregable de tercer corte definido en la hoja. |
 | **Posicionamiento prioritario de LinkedIn UIFCE** | En proceso | 50 %<br>Inicia la difusión; falta colocar la foto de portada UIFCE. | Hacer seguimiento de métricas sobre cómo han avanzado las interacciones de LinkedIn en comparación con los últimos 6 meses. |
 | **Creación de la cuenta de TikTok UIFCE** | En proceso | 50 %<br>Esperando el correo de redes. | Al menos 3 videos subidos.<br>Difusión de la nueva red por cualquier medio (WhatsApp, LinkedIn, carteleras físicas). |
 | **Consolidación y cierre de oficialización de YouTube UIFCE** | Sin estado registrado | 0 %<br>Nada. | Sin entregable de tercer corte definido en la hoja. |
