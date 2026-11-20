@@ -16,17 +16,10 @@ Datos tomados de la hoja «Estrategias Tecnológicas-Planeación 2026-2».
 
 | Frente | Entregables |
 |---|---|
-| Canales digitales | 6 |
+| Canales digitales | 5 |
 | Producción y difusión visual | 5 |
 | Eventos y comunidad | 3 |
 | Gestión y nuevos proyectos | 6 |
-
-## Frente 1 · Canales digitales
-
-| Entregable | Estado | Avance | Próximo paso |
-|---|---|---|---|
-| **Blog UIFCE** | Sin estado registrado | 0 %<br>Prioridad: despliegue. Revisar documentación. | Revisión del blog y despliegue de los cambios. |
-| **Micrositio UIFCE** | Sin estado registrado | 100 %<br>Prioridad.<br>Comentario: reunión Yony. | Sin entregable de tercer corte definido en la hoja. |
 
 ## Frente 2 · Producción y difusión visual
 
@@ -34,8 +27,6 @@ Datos tomados de la hoja «Estrategias Tecnológicas-Planeación 2026-2».
 |---|---|---|---|
 | **Piezas gráficas y material audiovisual** | En proceso | 80 %<br>OK. | Al menos 3 videos con edición en cualquier formato.<br>Al menos 4 ideas de videos con guion y personas que participan.<br>Ajuste previsto: cambiar enfoque. |
 | **Repositorio de Hacks Informáticos** | Sin estado registrado | 0 %<br>Prioridad para el segundo pago. | Asignar contenidos a monitores, con al menos 2 ya hechos.<br>Ajuste previsto: reestructurar los Hacks para incluir otros contenidos. |
-| **Carteleras UIFCE (física y digital)** | Completado | 100 %<br>OK. | Sin entregable de tercer corte definido en la hoja.<br>Comentario en la hoja: explorar formas de conseguir recursos (convocatorias de extensión de VIE o Decanatura directa). |
-| **Vigilancia y piezas de software disponible en cada sala** | En proceso | 0 %<br>Incluir los espacios de sala abierta al público en la pieza gráfica, difundir la información e incluir espacios de soporte técnico en la pieza.<br>Comentario: módulo listo, a la espera de producción de video para divulgarlo. | Ejecución de «Sala Abierta al Público». |
 | **Línea gráfica de Cursos Libres** | En proceso | 50 %<br>OK. | Actualizar la línea gráfica física con los cursos nuevos.<br>Ajuste previsto: meter SAP. Comentario en la hoja: agregar el curso nuevo «Introducción a SAP». |
 
 ## Frente 3 · Eventos y comunidad
@@ -44,7 +35,6 @@ Datos tomados de la hoja «Estrategias Tecnológicas-Planeación 2026-2».
 |---|---|---|---|
 | **Microtalleres UIFCE** | En proceso | 0 %<br>Prioridad: cronograma consolidado de eventos generales ET 2026-2.<br>Comentario: Angelica 2, Jean Carlos y Juan Rincon; validado por corresponsabilidad. | Al menos 1 microtaller dictado y otro programado y difundido.<br>Comentario en la hoja: implementar certificado de asistencia. |
 | **Semana UIFCE — primera edición** | Sin estado registrado | 75 %<br>Preparar la difusión de lo hecho en la semana como un recap. | Ejecutar la final de la hackatón o, al menos, definir la fecha final. |
-| **Red de Aliados Académicos UIFCE** | Completado | 75 %<br>Definir el proyecto concretamente, documentarlo y colaborar con AA para hacer networking. | Sin entregable de tercer corte definido en la hoja. |
 
 ## Frente 4 · Gestión y nuevos proyectos
 

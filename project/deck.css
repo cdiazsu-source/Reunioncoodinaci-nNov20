@@ -68,5 +68,33 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .yt .top .card { padding: 32px; }
 .yt .top .val { font-size: 36px; }
 .yt .top .ph, .yt .top .dim, .yt .wide .ph { font-size: 26px; }
+.bl h2 { margin-bottom: 24px; }
+.bl .top .est { flex: none; width: 300px; }
+.bl .pic { width: 620px; gap: 8px; }
+.bl .pic img { width: 620px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #E1E4E8; }
+.bl .pic img.b1 { height: 270px; }
+.bl .pic img.b2 { height: 140px; }
+.bl .top .card .ph, .bl .wide .ph { font-size: 26px; }
+.cr h2, .sa h2 { margin-bottom: 24px; }
+.cr .top .est, .sa .top .est { flex: none; width: 300px; }
+.cr .top .card, .cr .wide, .sa .top .card, .sa .wide { padding: 32px; }
+.cr .top .val, .sa .wide .val { font-size: 36px; }
+.cr .wide .ph, .cr .wide .dim, .sa .ph { font-size: 26px; }
+.cr .sites { display: flex; gap: 24px; width: 760px; }
+.cr .site { width: 368px; display: flex; flex-direction: column; gap: 16px; }
+.cr .site img { width: 368px; height: 260px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
+.cr .btn { display: block; text-align: center; font-size: 26px; font-weight: 600; color: #F6F4EE; background: #167065; padding: 16px 12px; border-radius: 12px; text-decoration: none; }
+.sa .pic { width: 560px; gap: 8px; }
+.sa .pic img { width: 560px; height: 413px; object-fit: contain; border-radius: 16px; background: #FFFFFF; }
+.sa .pic .cap { font-size: 24px; line-height: 1.3; color: #5A6675; }
+.al h2 { margin-bottom: 24px; }
+.al .top .est { flex: none; width: 300px; }
+.al .top .card, .al .wide { padding: 32px; }
+.al .top .val { font-size: 36px; }
+.al .top .ph, .al .wide .dim { font-size: 26px; }
+.al .pic { width: 520px; gap: 8px; }
+.al .pic img { width: 520px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
+.al .pic img.r1 { height: 228px; }
+.al .pic img.r2 { height: 160px; }
 .lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
 table { font-size: 30px; color: #3D4B5C; width: 100%; }
