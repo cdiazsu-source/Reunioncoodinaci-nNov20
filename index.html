@@ -106,6 +106,28 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .al .pic img { width: 520px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
 .al .pic img.r1 { height: 228px; }
 .al .pic img.r2 { height: 160px; }
+.lt .cards { margin-top: 24px; }
+.lt .card { padding: 32px; }
+.lt .card .val { font-size: 40px; }
+.lt .card .ph, .lt .card .dim { font-size: 26px; }
+.lt .pic { margin-top: auto; display: flex; flex-direction: column; gap: 8px; width: 900px; }
+.lt .pic img { width: 900px; height: 175px; object-fit: contain; border-radius: 16px; background: #FFFFFF; }
+.lt .pic .cap { font-size: 24px; color: #5A6675; }
+.tc h2 { margin-bottom: 24px; }
+.tc .top .est { flex: none; width: 300px; }
+.tc .top .card, .tc .wide { padding: 32px; }
+.tc .top .val { font-size: 36px; }
+.tc .top .ph, .tc .wide .ph { font-size: 26px; }
+.tc .pic { width: 480px; gap: 8px; }
+.tc .pic img { width: 480px; height: 360px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
+.bo h2 { margin-bottom: 24px; }
+.bo .top .est { flex: none; width: 300px; }
+.bo .top .card, .bo .wide { padding: 32px; }
+.bo .top .val { font-size: 36px; }
+.bo .top .ph, .bo .wide .ph { font-size: 26px; }
+.bo .wide .btn { display: block; margin-top: 20px; text-align: center; font-size: 26px; font-weight: 600; color: #F6F4EE; background: #167065; padding: 16px 12px; border-radius: 12px; text-decoration: none; }
+.bo .pic { width: 706px; flex-direction: row; gap: 16px; }
+.bo .pic img { width: 345px; height: 460px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
 .lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
 table { font-size: 30px; color: #3D4B5C; width: 100%; }
 
@@ -353,41 +375,52 @@ section.slide table{border-collapse:collapse}
 <p class="pg">16</p>
 <aside>Dos o tres minutos: estado, avance y próximo paso. Pregunta guía: ¿qué se aprendió de lo ya ejecutado y qué se ajusta antes del cierre? Se hizo un trackeo del equipo docente y de las dependencias que tienen contacto con la UIFCE, con insumos de la experiencia de ET y del material de los apoyos académicos de tres periodos atrás. Estado en la hoja: Completado; avance anterior 75 %.</aside>
 </section>
-<section id="lineas-trabajo" class="slide ent" data-i="16" data-transition="fade">
+<section id="lineas-trabajo" class="slide ent lt" data-i="16" data-transition="fade">
 <p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 1 DE 6</p>
 <h2>Líneas de trabajo de Estrategias Tecnológicas</h2>
 <div class="cards">
 <div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
-<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Ninguno.</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">100 %</p><p class="ph">Se trackearon aproximadamente 50 iniciativas y proyectos de los últimos 3 semestres y se definieron las líneas de trabajo de ET.</p></div>
 <div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
 </div>
+<div class="pic"><img src="assets/lineas-trabajo.png" alt="Gráfico de anillo con 61 proyectos por línea de trabajo: Comunicación 21 (34 %), Articulación interna 16 (26 %), Eventos y vinculación 13 (21 %) y Gestión interna 11 (18 %)."><p class="cap">Proyectos por línea de trabajo.</p></div>
 <p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
 <p class="pg">17</p>
-<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Nota: la hoja marca este entregable como completado con avance de corte 1 en 0 %; conviene aclararlo.</aside>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Se trackearon aproximadamente 50 iniciativas y proyectos de los últimos 3 semestres y se definieron las líneas de trabajo de ET: Comunicación, Articulación interna, Eventos y vinculación y Gestión interna. El gráfico del módulo muestra 61 proyectos clasificados en esas cuatro líneas.</aside>
 </section>
-<section id="terminos" class="slide ent" data-i="17" data-transition="fade">
+<section id="terminos" class="slide ent li tc" data-i="17" data-transition="fade">
 <p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 2 DE 6</p>
 <h2>Cierre de Términos y Condiciones de Estrategias Tecnológicas</h2>
-<div class="cards">
-<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
-<div class="card"><p class="k">AVANCE</p><p class="val">75 %</p><p class="ph">Prioridad: cambiar contexto, expectativas y entregables, y mostrar avance para el segundo pago.</p></div>
-<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Inicio de la documentación de los nuevos TyC.</p></div>
+<div class="row">
+<div class="side">
+<div class="top">
+<div class="card est"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">100 %</p><p class="ph">Se dio un entregable con los nuevos términos y condiciones para los microtalleres virtuales.</p></div>
+</div>
+<div class="card wide"><p class="k">PRÓXIMO PASO</p><p class="ph">Estrenar los nuevos términos y condiciones este semestre.</p></div>
+</div>
+<div class="pic"><img src="assets/terminos-tyc.png" alt="Primera página del documento «Términos y Condiciones de Estrategias Tecnológicas (ET)» 2026-2S: introducción sobre las reglas de inscripción, asistencia y cancelación en las actividades de ET, y objetivo general del documento."><p class="cap">Términos y Condiciones de ET · 2026-2S.</p></div>
 </div>
 <p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
 <p class="pg">18</p>
-<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme?</aside>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Se dio un entregable con los nuevos términos y condiciones para microtalleres virtuales; se estrenarán este semestre. El documento reúne las reglas de inscripción, asistencia, cancelación, certificado de asistencia, horas de corresponsabilidad y formulación de eventos virtuales.</aside>
 </section>
-<section id="boletin" class="slide ent" data-i="18" data-transition="fade">
+<section id="boletin" class="slide ent li bo" data-i="18" data-transition="fade">
 <p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 3 DE 6</p>
 <h2>Boletín Digital UIFCE</h2>
-<div class="cards">
-<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
-<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Publicar.</p></div>
-<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Plantilla ya creada de los boletines.</p><p class="ph">Ideas para los mismos.</p></div>
+<div class="row">
+<div class="side">
+<div class="top">
+<div class="card est"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">100 %</p><p class="ph">Se creó el proyecto en formato HTML para formatos de redes sociales y TV. Es un repositorio replicable, con noticias tecnológicas.</p></div>
+</div>
+<div class="card wide"><p class="k">PRÓXIMO PASO</p><p class="ph">Plantilla ya creada de los boletines. Ideas para los mismos.</p><a class="btn" href="https://cdiazsu-source.github.io/ET-BoletinUIFCE1/edicion-01.html#p=c" target="_blank" rel="noopener">Ver el boletín, edición #1 ↗</a></div>
+</div>
+<div class="pic"><img src="assets/boletin-p1.png" alt="Boletín UIFCE, edición #1 (noviembre 2026): encabezado con el logo UIFCE, saludo de Uifcito y la sección de cursos libres con el lanzamiento especial «De las fórmulas a los tableros»."><img src="assets/boletin-p2.png" alt="Boletín UIFCE, edición #1: noticias sobre el certificado en LinkedIn y la caja de herramientas de apoyos académicos con SAP, QGIS y Siigo."></div>
 </div>
 <p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
 <p class="pg">19</p>
-<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme?</aside>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Se creó el proyecto en formato HTML para formatos de redes sociales y TV: un repositorio replicable con noticias tecnológicas. Edición #1, noviembre 2026: cdiazsu-source.github.io/ET-BoletinUIFCE1/edicion-01.html#p=c</aside>
 </section>
 <section id="ia-video" class="slide ent" data-i="19" data-transition="fade">
 <p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 4 DE 6</p>

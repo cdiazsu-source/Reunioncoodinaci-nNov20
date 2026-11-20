@@ -96,5 +96,27 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .al .pic img { width: 520px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
 .al .pic img.r1 { height: 228px; }
 .al .pic img.r2 { height: 160px; }
+.lt .cards { margin-top: 24px; }
+.lt .card { padding: 32px; }
+.lt .card .val { font-size: 40px; }
+.lt .card .ph, .lt .card .dim { font-size: 26px; }
+.lt .pic { margin-top: auto; display: flex; flex-direction: column; gap: 8px; width: 900px; }
+.lt .pic img { width: 900px; height: 175px; object-fit: contain; border-radius: 16px; background: #FFFFFF; }
+.lt .pic .cap { font-size: 24px; color: #5A6675; }
+.tc h2 { margin-bottom: 24px; }
+.tc .top .est { flex: none; width: 300px; }
+.tc .top .card, .tc .wide { padding: 32px; }
+.tc .top .val { font-size: 36px; }
+.tc .top .ph, .tc .wide .ph { font-size: 26px; }
+.tc .pic { width: 480px; gap: 8px; }
+.tc .pic img { width: 480px; height: 360px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
+.bo h2 { margin-bottom: 24px; }
+.bo .top .est { flex: none; width: 300px; }
+.bo .top .card, .bo .wide { padding: 32px; }
+.bo .top .val { font-size: 36px; }
+.bo .top .ph, .bo .wide .ph { font-size: 26px; }
+.bo .wide .btn { display: block; margin-top: 20px; text-align: center; font-size: 26px; font-weight: 600; color: #F6F4EE; background: #167065; padding: 16px 12px; border-radius: 12px; text-decoration: none; }
+.bo .pic { width: 706px; flex-direction: row; gap: 16px; }
+.bo .pic img { width: 345px; height: 460px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
 .lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
 table { font-size: 30px; color: #3D4B5C; width: 100%; }

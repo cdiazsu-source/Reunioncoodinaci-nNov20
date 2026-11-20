@@ -40,9 +40,6 @@ Datos tomados de la hoja «Estrategias Tecnológicas-Planeación 2026-2».
 
 | Entregable | Estado | Avance | Próximo paso |
 |---|---|---|---|
-| **Líneas de trabajo de Estrategias Tecnológicas** | Completado | 0 %<br>Ninguno. | Sin entregable de tercer corte definido en la hoja. |
-| **Cierre de Términos y Condiciones de Estrategias Tecnológicas** | Completado | 75 %<br>Prioridad: cambiar contexto, expectativas y entregables, y mostrar avance para el segundo pago. | Inicio de la documentación de los nuevos TyC. |
-| **Boletín Digital UIFCE** | Completado | 0 %<br>Publicar. | Plantilla ya creada de los boletines.<br>Ideas para los mismos. |
 | **Repositorio de material con IA y automatización de producción de video** | Completado | 100 %<br>Notebook. Documentar formalmente el proyecto y establecer un formato estándar (prompt) para que todos los videos sean de calidad.<br>Proponer entregables concretos y alternativas (matriz DOFA). | Sin entregable de tercer corte definido en la hoja. |
 | **Repositorio documental permanente de Estrategias Tecnológicas** | Completado | 25 %<br>Colaborar con GC, establecer lineamientos de calidad, efectivos y de mejora para ambos repositorios.<br>Comentario: acompañamiento a GC para infografía con guía interactiva. | Sin entregable de tercer corte definido en la hoja. |
 | **Acompañamiento Interárea** | En proceso | 100 %<br>ET en Marcha. Formalizar la estrategia e implementarla en la cultura de coordinación.<br>Comunicar la nueva estrategia y la dinámica al equipo, y también el por qué, el para qué y el para quién. | Sin entregable de tercer corte definido en la hoja. |
