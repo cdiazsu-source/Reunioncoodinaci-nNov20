@@ -118,5 +118,24 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .bo .wide .btn { display: block; margin-top: 20px; text-align: center; font-size: 26px; font-weight: 600; color: #F6F4EE; background: #167065; padding: 16px 12px; border-radius: 12px; text-decoration: none; }
 .bo .pic { width: 706px; flex-direction: row; gap: 16px; }
 .bo .pic img { width: 345px; height: 460px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
+.hk h2 { margin-bottom: 24px; }
+.hk .top .est { flex: none; width: 300px; }
+.hk .top .card, .hk .wide { padding: 32px; }
+.hk .top .val { font-size: 36px; }
+.hk .top .ph, .hk .wide .ph { font-size: 26px; }
+.hk .pic { width: 752px; flex-direction: row; flex-wrap: wrap; gap: 8px 16px; align-content: flex-start; }
+.hk .pic .shot { width: 240px; height: 427px; }
+.hk .pic img { width: 240px; height: 427px; object-fit: cover; border-radius: 16px; background: #0A1530; }
+.hk .pic .cap { width: 752px; font-size: 24px; line-height: 1.3; color: #5A6675; }
+.rd h2 { font-size: 54px; margin-bottom: 20px; }
+.rd .top .est { flex: none; width: 300px; }
+.rd .top .card, .rd .wide { padding: 32px; }
+.rd .top .val { font-size: 36px; }
+.rd .top .ph, .rd .wide .dim { font-size: 26px; }
+.rd .wide .btn { display: block; margin-top: 20px; text-align: center; font-size: 26px; font-weight: 600; color: #F6F4EE; background: #167065; padding: 16px 12px; border-radius: 12px; text-decoration: none; }
+.rd .pic { width: 620px; gap: 8px; }
+.rd .pic img { width: 620px; object-fit: cover; object-position: 50% 0; border-radius: 16px; background: #FFFFFF; }
+.rd .pic img.r1 { height: 330px; }
+.rd .pic img.r2 { height: 250px; }
 .lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
 table { font-size: 30px; color: #3D4B5C; width: 100%; }
