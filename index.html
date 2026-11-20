@@ -38,14 +38,16 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .card .ph + .ph { margin-top: 14px; }
 .card .val { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 48px; font-weight: 600; line-height: 1.1; color: #12263A; margin: 0 0 16px; }
 .card .dim { font-size: 30px; line-height: 1.35; color: #5A6675; }
-.ig h2 { font-size: 64px; }
+.ig h2 { font-size: 64px; margin-bottom: 24px; }
 .ig .row { display: flex; gap: 32px; margin-top: auto; align-items: stretch; }
 .ig .col1 { display: flex; flex-direction: column; gap: 32px; width: 384px; }
 .ig .col1 .card { flex: 1; padding: 40px; }
 .ig .main { flex: 1; padding: 40px; }
 .ig .main .ph { font-size: 28px; }
-.ig .pic { width: 560px; display: flex; flex-direction: column; gap: 12px; }
-.ig .pic img { width: 560px; height: 312px; object-fit: contain; border-radius: 16px; background: #EAE6DA; }
+.ig .pic { width: 500px; display: flex; flex-direction: column; gap: 8px; }
+.ig .pic img { width: 500px; object-fit: contain; border-radius: 16px; background: #EAE6DA; }
+.ig .pic img.correo { height: 266px; background: #FFFFFF; }
+.ig .pic img.wa { height: 278px; }
 .ig .pic .cap { font-size: 24px; line-height: 1.3; color: #5A6675; }
 .li h2 { font-size: 64px; }
 .li .row { display: flex; gap: 32px; margin-top: auto; align-items: stretch; }
@@ -62,8 +64,20 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .tk .pic img.guia { height: 379px; background: #FFFFFF; }
 .tk h2 { margin-bottom: 24px; }
 .tk .top .est { flex: none; width: 300px; }
+.tk .bottom { display: flex; gap: 32px; flex: 1; }
+.tk .req { width: 380px; display: flex; flex-direction: column; gap: 8px; }
+.tk .req img { width: 380px; height: 125px; object-fit: contain; background: #FFFFFF; border-radius: 16px; }
+.tk .req .cap { font-size: 24px; line-height: 1.3; color: #5A6675; }
 .tk .wide .ph { font-size: 28px; }
 .tk .top .card .ph { font-size: 28px; }
+.yt h2 { margin-bottom: 24px; }
+.yt .pic { width: 640px; gap: 8px; }
+.yt .pic img { width: 640px; }
+.yt .pic img.canal { height: 194px; background: #0F0F0F; }
+.yt .pic img.guia { height: 200px; object-fit: cover; object-position: 50% 100%; background: #FFFFFF; }
+.yt .top .card { padding: 32px; }
+.yt .top .val { font-size: 36px; }
+.yt .top .ph, .yt .top .dim, .yt .wide .ph { font-size: 26px; }
 .lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
 table { font-size: 30px; color: #3D4B5C; width: 100%; }
 
@@ -119,7 +133,7 @@ section.slide table{border-collapse:collapse}
 <div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
 </div>
 <div class="card main"><p class="k">AVANCE</p><p class="val">50 %</p><p class="ph">Ya se creó el correo electrónico. Mesa de ayuda confirmó que se enviaron las credenciales; se envió un correo para pedirlas.</p><p class="ph">Hoy, por llamada, mesa de ayuda indicó que ese último correo fue respondido con las credenciales, pero solo al remitente original.</p><p class="ph">Se pidió verificar las credenciales y enviar una captura de pantalla.</p></div>
-<div class="pic"><img src="assets/instagram-credenciales.png" alt="Captura de un mensaje de WhatsApp: mesa de servicios respondió con las credenciales solo al remitente original y se pide verificar las credenciales y enviar una captura de pantalla."><p class="cap">Mensaje enviado hoy sobre las credenciales.</p></div>
+<div class="pic"><img class="correo" src="assets/instagram-correo.png" alt="Correo enviado por el profesor Henry Martínez a Mesa de Ayuda el 13 de noviembre, solicitando las credenciales de acceso del nuevo correo electrónico de la cuenta."><p class="cap">Correo enviado el 13 de noviembre.</p><img class="wa" src="assets/instagram-credenciales.png" alt="Captura de un mensaje de WhatsApp: mesa de servicios respondió con las credenciales solo al remitente original y se pide verificar las credenciales y enviar una captura de pantalla."><p class="cap">Mensaje enviado hoy.</p></div>
 </div>
 <p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
 <p class="pg">4</p>
@@ -149,9 +163,12 @@ section.slide table{border-collapse:collapse}
 <div class="side">
 <div class="top">
 <div class="card est"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
-<div class="card"><p class="k">AVANCE</p><p class="val">50 %</p><p class="ph">Cuenta creada y perfil configurado según las directrices de Unimedios. La cuenta se envió a revisión.</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">50 %</p><p class="ph">Cuenta creada y perfil configurado según Unimedios. Se envió a revisión: solicitud de verificación radicada (No. Bogotá-1753-2026).</p></div>
 </div>
-<div class="card wide"><p class="k">PRÓXIMO PASO</p><p class="ph">Al menos 3 videos subidos.</p><p class="ph">Difusión de la nueva red por cualquier medio (WhatsApp, LinkedIn, carteleras físicas).</p></div>
+<div class="bottom">
+<div class="card wide"><p class="k">PRÓXIMO PASO</p><p class="ph">Esperar la verificación por parte de Unimedios.</p></div>
+<div class="req"><img src="assets/tiktok-solicitud.png" alt="Confirmación del sistema de solicitudes de Unimedios: «Gracias. Su solicitud ha sido radicada con el No. Bogotá-1753-2026»."><p class="cap">Solicitud radicada en Unimedios.</p></div>
+</div>
 </div>
 <div class="pic"><img class="perfil" src="assets/tiktok-perfil.png" alt="Perfil actual de TikTok «Unidad de Informática FCE UNAL» (uifce_unal), con avatar UNAL y la descripción «Cuenta institucional Universidad Nacional de Colombia | Vigilada Mineducación». Muestra 0 seguidos, 0 seguidores y 0 me gusta."><p class="cap">Perfil actual, enviado a revisión.</p><img class="guia" src="assets/tiktok-directrices.png" alt="Guía B2.6 TikTok de la UNAL: imagen de perfil de 180 x 180 px, título de la cuenta con el nombre de la dependencia + UNAL, e información básica que debe indicar que es una cuenta institucional de la Universidad Nacional de Colombia e incluir «Vigilada Mineducación»."><p class="cap">Directrices de Unimedios para TikTok.</p></div>
 </div>
@@ -159,17 +176,23 @@ section.slide table{border-collapse:collapse}
 <p class="pg">6</p>
 <aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable? La cuenta se envió a revisión. Fuente de las directrices: guía de redes sociales de la UNAL, apartado B2.6 TikTok (identidad.unal.edu.co/guia-redes-sociales/b-directrices-y-especificaciones/b2-cuentas-en-redes-sociales-y-plataformas-digitales/b26-tiktok/).</aside>
 </section>
-<section id="youtube" class="slide ent" data-i="6" data-transition="fade">
+<section id="youtube" class="slide ent li yt" data-i="6" data-transition="fade">
 <p class="eyebrow">FRENTE 1 · CANALES DIGITALES · 4 DE 6</p>
 <h2>Consolidación y cierre de oficialización de YouTube UIFCE</h2>
-<div class="cards">
-<div class="card"><p class="k">ESTADO</p><p class="val">Sin estado registrado</p></div>
-<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Nada.</p></div>
+<div class="row">
+<div class="side">
+<div class="top">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">45 %</p><p class="ph">Cumplimiento verificable de la guía B2.3.</p></div>
 <div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<div class="card wide"><p class="k">REVISIÓN DEL CANAL · 20 DE NOVIEMBRE</p><p class="ph">Cumplimiento verificable frente a la guía de identidad B2.3: 45 % (4,5 de 10 puntos).</p><p class="ph">Prioridades: retomar la publicación de videos, rehacer la portada (2560 × 1440 px) y completar la descripción.</p></div>
+</div>
+<div class="pic"><img class="canal" src="assets/youtube-canal.png" alt="Canal de YouTube «Unidad de Informática FCE» (@virtualuifce): 1,75 mil suscriptores y 559 videos, con el logo UNAL sobre fondo azul como foto de perfil."><p class="cap">Canal actual (@virtualuifce).</p><img class="guia" src="assets/youtube-guia.png" alt="Guía B2.3 YouTube de la UNAL para canales de dependencias: imagen de portada de 2560 × 1440 px, imagen de perfil de 800 × 800 px, título del canal con el nombre de la dependencia y la Universidad Nacional de Colombia, y «Más información» indicando que es un canal institucional y el texto «Vigilada Mineducación»."><p class="cap">Guía B2.3 de identidad UNAL.</p></div>
 </div>
 <p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
 <p class="pg">7</p>
-<aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable?</aside>
+<aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable? Revisión del 20 de noviembre de 2026 (youtube.com/@virtualuifce): 1,75 mil suscriptores y 559 videos; videos más recientes de hace unos dos años. Cumplimiento verificable 45 % frente a la sección B2.3: cumple el carácter institucional; cumple parcialmente nombre, enlaces, descripción, foto de perfil, calidad de portada, formato de video y títulos; no cumple enlaces a las cinco redes oficiales en la portada ni actualización periódica. Siete criterios quedan sin verificar (requieren YouTube Studio); si se contaran como incumplidos, el cumplimiento bajaría a cerca de 26 %. Acciones prioritarias: 1) retomar la publicación periódica; 2) rehacer la portada a 2560x1440 con enlaces a Universidad, Facebook, YouTube, X e Instagram; 3) solicitar a Unimedios la marca nominativa para la foto de perfil; 4) completar la descripción y corregir «Vigiliada MinEducación»; 5) incluir la fecha en los títulos; 6) revisar el Short vertical, que la guía no permite en canales de dependencias.</aside>
 </section>
 <section id="blog" class="slide ent" data-i="7" data-transition="fade">
 <p class="eyebrow">FRENTE 1 · CANALES DIGITALES · 5 DE 6</p>

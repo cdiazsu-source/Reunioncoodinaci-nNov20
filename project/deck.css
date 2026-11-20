@@ -28,14 +28,16 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .card .ph + .ph { margin-top: 14px; }
 .card .val { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 48px; font-weight: 600; line-height: 1.1; color: #12263A; margin: 0 0 16px; }
 .card .dim { font-size: 30px; line-height: 1.35; color: #5A6675; }
-.ig h2 { font-size: 64px; }
+.ig h2 { font-size: 64px; margin-bottom: 24px; }
 .ig .row { display: flex; gap: 32px; margin-top: auto; align-items: stretch; }
 .ig .col1 { display: flex; flex-direction: column; gap: 32px; width: 384px; }
 .ig .col1 .card { flex: 1; padding: 40px; }
 .ig .main { flex: 1; padding: 40px; }
 .ig .main .ph { font-size: 28px; }
-.ig .pic { width: 560px; display: flex; flex-direction: column; gap: 12px; }
-.ig .pic img { width: 560px; height: 312px; object-fit: contain; border-radius: 16px; background: #EAE6DA; }
+.ig .pic { width: 500px; display: flex; flex-direction: column; gap: 8px; }
+.ig .pic img { width: 500px; object-fit: contain; border-radius: 16px; background: #EAE6DA; }
+.ig .pic img.correo { height: 266px; background: #FFFFFF; }
+.ig .pic img.wa { height: 278px; }
 .ig .pic .cap { font-size: 24px; line-height: 1.3; color: #5A6675; }
 .li h2 { font-size: 64px; }
 .li .row { display: flex; gap: 32px; margin-top: auto; align-items: stretch; }
@@ -52,7 +54,19 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .tk .pic img.guia { height: 379px; background: #FFFFFF; }
 .tk h2 { margin-bottom: 24px; }
 .tk .top .est { flex: none; width: 300px; }
+.tk .bottom { display: flex; gap: 32px; flex: 1; }
+.tk .req { width: 380px; display: flex; flex-direction: column; gap: 8px; }
+.tk .req img { width: 380px; height: 125px; object-fit: contain; background: #FFFFFF; border-radius: 16px; }
+.tk .req .cap { font-size: 24px; line-height: 1.3; color: #5A6675; }
 .tk .wide .ph { font-size: 28px; }
 .tk .top .card .ph { font-size: 28px; }
+.yt h2 { margin-bottom: 24px; }
+.yt .pic { width: 640px; gap: 8px; }
+.yt .pic img { width: 640px; }
+.yt .pic img.canal { height: 194px; background: #0F0F0F; }
+.yt .pic img.guia { height: 200px; object-fit: cover; object-position: 50% 100%; background: #FFFFFF; }
+.yt .top .card { padding: 32px; }
+.yt .top .val { font-size: 36px; }
+.yt .top .ph, .yt .top .dim, .yt .wide .ph { font-size: 26px; }
 .lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
 table { font-size: 30px; color: #3D4B5C; width: 100%; }
