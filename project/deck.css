@@ -1,0 +1,32 @@
+body { font-family: 'Inter', Arial, sans-serif; }
+section { padding: 128px 128px 160px; background: #F6F4EE; color: #3D4B5C; display: flex; flex-direction: column; counter-increment: page; }
+h1, h2, h3 { font-family: 'Space Grotesk', Arial, sans-serif; }
+h1 { font-size: 120px; line-height: 1.05; margin: 0; color: #F6F4EE; }
+h2 { font-size: 64px; line-height: 1.1; margin: 0 0 56px; color: #12263A; }
+h3 { font-size: 44px; line-height: 1.15; margin: 0 0 16px; color: #12263A; }
+p { font-size: 32px; line-height: 1.4; margin: 0; }
+.eyebrow { font-size: 28px; font-weight: 600; letter-spacing: 3px; color: #167065; margin: 0 0 24px; }
+.dark { background: #12263A; }
+.dark h2, .dark h3 { color: #F6F4EE; }
+.dark p { color: #C9D3DE; }
+.dark .eyebrow { color: #E0A526; }
+.foot { position: absolute; left: 128px; bottom: 64px; width: 1200px; font-size: 24px; color: #5A6675; }
+.pg { position: absolute; right: 128px; bottom: 64px; width: 200px; text-align: right; font-size: 24px; color: #5A6675; }
+.dark .foot, .dark .pg { color: #9FB0C2; }
+.cover { justify-content: center; }
+.cover .sub { font-size: 44px; color: #C9D3DE; margin-top: 40px; }
+.cover .date { font-size: 32px; font-weight: 600; color: #12263A; background: #E0A526; padding: 14px 28px; border-radius: 8px; align-self: flex-start; margin-top: 64px; }
+.cards { display: flex; gap: 32px; }
+.card { flex: 1; background: #EAE6DA; border-radius: 16px; padding: 48px; }
+.card .k { font-size: 28px; font-weight: 600; letter-spacing: 3px; color: #167065; margin: 0 0 20px; }
+.dcard { flex: 1; background: #1B3752; border-radius: 16px; padding: 48px; }
+.dcard .num { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 120px; font-weight: 600; line-height: 1; color: #E0A526; margin: 0 0 20px; }
+.dcard .lbl { font-size: 36px; line-height: 1.25; color: #F6F4EE; }
+.ent h2 { font-size: 80px; margin-bottom: 0; }
+.ent .cards { margin-top: auto; }
+.card .ph { font-size: 30px; line-height: 1.35; color: #3D4B5C; }
+.card .ph + .ph { margin-top: 14px; }
+.card .val { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 48px; font-weight: 600; line-height: 1.1; color: #12263A; margin: 0 0 16px; }
+.card .dim { font-size: 30px; line-height: 1.35; color: #5A6675; }
+.lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
+table { font-size: 30px; color: #3D4B5C; width: 100%; }
