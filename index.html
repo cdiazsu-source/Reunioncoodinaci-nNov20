@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reunión de coordinación · Estrategias Tecnológicas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400..700&family=Inter:wght@400;600&display=swap">
+<style>
+html,body{margin:0;height:100%;background:#0c1a29;overflow:hidden;font-family:'Inter',Arial,sans-serif}
+#viewport{position:fixed;inset:0 0 56px 0;display:flex;align-items:center;justify-content:center}
+#frame{width:1920px;height:1080px;transform-origin:center center;flex:none}
+body { font-family: 'Inter', Arial, sans-serif; }
+section { padding: 128px 128px 160px; background: #F6F4EE; color: #3D4B5C; display: flex; flex-direction: column; counter-increment: page; }
+h1, h2, h3 { font-family: 'Space Grotesk', Arial, sans-serif; }
+h1 { font-size: 120px; line-height: 1.05; margin: 0; color: #F6F4EE; }
+h2 { font-size: 64px; line-height: 1.1; margin: 0 0 56px; color: #12263A; }
+h3 { font-size: 44px; line-height: 1.15; margin: 0 0 16px; color: #12263A; }
+p { font-size: 32px; line-height: 1.4; margin: 0; }
+.eyebrow { font-size: 28px; font-weight: 600; letter-spacing: 3px; color: #167065; margin: 0 0 24px; }
+.dark { background: #12263A; }
+.dark h2, .dark h3 { color: #F6F4EE; }
+.dark p { color: #C9D3DE; }
+.dark .eyebrow { color: #E0A526; }
+.foot { position: absolute; left: 128px; bottom: 64px; width: 1200px; font-size: 24px; color: #5A6675; }
+.pg { position: absolute; right: 128px; bottom: 64px; width: 200px; text-align: right; font-size: 24px; color: #5A6675; }
+.dark .foot, .dark .pg { color: #9FB0C2; }
+.cover { justify-content: center; }
+.cover .sub { font-size: 44px; color: #C9D3DE; margin-top: 40px; }
+.cover .date { font-size: 32px; font-weight: 600; color: #12263A; background: #E0A526; padding: 14px 28px; border-radius: 8px; align-self: flex-start; margin-top: 64px; }
+.cards { display: flex; gap: 32px; }
+.card { flex: 1; background: #EAE6DA; border-radius: 16px; padding: 48px; }
+.card .k { font-size: 28px; font-weight: 600; letter-spacing: 3px; color: #167065; margin: 0 0 20px; }
+.dcard { flex: 1; background: #1B3752; border-radius: 16px; padding: 48px; }
+.dcard .num { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 120px; font-weight: 600; line-height: 1; color: #E0A526; margin: 0 0 20px; }
+.dcard .lbl { font-size: 36px; line-height: 1.25; color: #F6F4EE; }
+.ent h2 { font-size: 80px; margin-bottom: 0; }
+.ent .cards { margin-top: auto; }
+.card .ph { font-size: 30px; line-height: 1.35; color: #3D4B5C; }
+.card .ph + .ph { margin-top: 14px; }
+.card .val { font-family: 'Space Grotesk', Arial, sans-serif; font-size: 48px; font-weight: 600; line-height: 1.1; color: #12263A; margin: 0 0 16px; }
+.card .dim { font-size: 30px; line-height: 1.35; color: #5A6675; }
+.lead { font-size: 36px; color: #3D4B5C; margin: 0 0 48px; }
+table { font-size: 30px; color: #3D4B5C; width: 100%; }
+
+section.slide{display:none;width:1920px;height:1080px;position:relative;box-sizing:border-box;overflow:hidden}
+section.slide.on{display:flex}
+section.slide aside{display:none}
+section.slide td,section.slide th{padding:12px 20px;border-bottom:1px solid #CFC9B8;text-align:left}
+section.slide table{border-collapse:collapse}
+#bar{position:fixed;left:0;right:0;bottom:0;height:56px;display:flex;align-items:center;justify-content:center;gap:16px;background:#12263A;color:#F6F4EE;font-size:16px}
+#bar button{background:#1B3752;color:#F6F4EE;border:0;border-radius:8px;padding:10px 18px;font-size:16px;cursor:pointer}
+#bar button:hover{background:#26496b}
+#count{min-width:90px;text-align:center}
+</style></head><body>
+<div id="viewport"><div id="frame">
+<section id="cover" class="slide dark cover" data-i="0" data-transition="fade">
+<p class="eyebrow">ESTRATEGIAS TECNOLÓGICAS · UIFCE</p>
+<h1>Reunión de coordinación</h1>
+<p class="sub">Avance de la planeación 2026-2</p>
+<p class="date">20 de noviembre de 2026</p>
+<aside>Bienvenida y encuadre (1 min). Esta reunión es para mostrar avance, alinear y decidir; no es una revisión línea por línea. Pida a cada responsable que llegue con el estado de sus entregables en una frase.</aside>
+</section>
+<section class="slide" data-i="1" id="objetivos" data-transition="fade">
+<p class="eyebrow">PROPÓSITO</p>
+<h2>Objetivos de la reunión</h2>
+<div class="cards">
+<div class="card"><p class="k">1 · MOSTRAR</p><h3>Avance</h3><p>Qué se ha logrado en la planeación 2026-2, entregable por entregable.</p></div>
+<div class="card"><p class="k">2 · ALINEAR</p><h3>Prioridades</h3><p>Dependencias y prioridades compartidas entre los frentes de trabajo.</p></div>
+<div class="card"><p class="k">3 · DECIDIR</p><h3>Próximos pasos</h3><p>Apoyos y acuerdos necesarios para lo que resta del semestre.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">2</p>
+<aside>Enuncie los tres verbos: mostrar, alinear, decidir. Aclare que el tiempo se reserva sobre todo para decidir, por eso el avance se presenta de forma breve.</aside>
+</section>
+<section id="panorama" class="slide dark" data-i="2" data-transition="fade">
+<p class="eyebrow">PANORAMA</p>
+<h2>20 entregables en 4 frentes</h2>
+<div class="cards">
+<div class="dcard"><p class="num">6</p><p class="lbl">Canales digitales</p></div>
+<div class="dcard"><p class="num">5</p><p class="lbl">Producción y difusión visual</p></div>
+<div class="dcard"><p class="num">3</p><p class="lbl">Eventos y comunidad</p></div>
+<div class="dcard"><p class="num">6</p><p class="lbl">Gestión y nuevos proyectos</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">3</p>
+<aside>Muestre la distribución: los canales digitales concentran más entregables. Tiempos sugeridos: canales digitales 10 min, producción y difusión visual 10 min, eventos y comunidad 8 min, gestión y nuevos proyectos 10 min. Cada entregable tiene su diapositiva con estado, avance y próximo paso.</aside>
+</section>
+<section id="instagram" class="slide ent" data-i="3" data-transition="fade">
+<p class="eyebrow">FRENTE 1 · CANALES DIGITALES · 1 DE 6</p>
+<h2>Recuperación o recreación de la cuenta de Instagram</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">50 %</p><p class="ph">Se está solicitando un nuevo correo institucional para las redes UIFCE.</p><p class="ph">Comentario: correo del profesor indicando que no se le ha enviado ninguna contraseña.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">4</p>
+<aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable?</aside>
+</section>
+<section id="linkedin" class="slide ent" data-i="4" data-transition="fade">
+<p class="eyebrow">FRENTE 1 · CANALES DIGITALES · 2 DE 6</p>
+<h2>Posicionamiento prioritario de LinkedIn UIFCE</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">50 %</p><p class="ph">Inicia la difusión; falta colocar la foto de portada UIFCE.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Hacer seguimiento de métricas sobre cómo han avanzado las interacciones de LinkedIn en comparación con los últimos 6 meses.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">5</p>
+<aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable?</aside>
+</section>
+<section id="tiktok" class="slide ent" data-i="5" data-transition="fade">
+<p class="eyebrow">FRENTE 1 · CANALES DIGITALES · 3 DE 6</p>
+<h2>Creación de la cuenta de TikTok UIFCE</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">50 %</p><p class="ph">Esperando el correo de redes.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Al menos 3 videos subidos.</p><p class="ph">Difusión de la nueva red por cualquier medio (WhatsApp, LinkedIn, carteleras físicas).</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">6</p>
+<aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable?</aside>
+</section>
+<section id="youtube" class="slide ent" data-i="6" data-transition="fade">
+<p class="eyebrow">FRENTE 1 · CANALES DIGITALES · 4 DE 6</p>
+<h2>Consolidación y cierre de oficialización de YouTube UIFCE</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Sin estado registrado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Nada.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">7</p>
+<aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable?</aside>
+</section>
+<section id="blog" class="slide ent" data-i="7" data-transition="fade">
+<p class="eyebrow">FRENTE 1 · CANALES DIGITALES · 5 DE 6</p>
+<h2>Blog UIFCE</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Sin estado registrado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Prioridad: despliegue. Revisar documentación.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Revisión del blog y despliegue de los cambios.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">8</p>
+<aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable?</aside>
+</section>
+<section id="micrositio" class="slide ent" data-i="8" data-transition="fade">
+<p class="eyebrow">FRENTE 1 · CANALES DIGITALES · 6 DE 6</p>
+<h2>Micrositio UIFCE</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Sin estado registrado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">100 %</p><p class="ph">Prioridad.</p><p class="ph">Comentario: reunión Yony.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">9</p>
+<aside>Un minuto: estado, avance y próximo paso. Pregunta guía: ¿qué se necesita para cerrar este entregable?</aside>
+</section>
+<section id="piezas" class="slide ent" data-i="9" data-transition="fade">
+<p class="eyebrow">FRENTE 2 · PRODUCCIÓN Y DIFUSIÓN VISUAL · 1 DE 5</p>
+<h2>Piezas gráficas y material audiovisual</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">80 %</p><p class="ph">OK.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Al menos 3 videos con edición en cualquier formato.</p><p class="ph">Al menos 4 ideas de videos con guion y personas que participan.</p><p class="ph">Ajuste previsto: cambiar enfoque.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">10</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué piezas están listas para difundirse y cuáles esperan aprobación?</aside>
+</section>
+<section id="hacks" class="slide ent" data-i="10" data-transition="fade">
+<p class="eyebrow">FRENTE 2 · PRODUCCIÓN Y DIFUSIÓN VISUAL · 2 DE 5</p>
+<h2>Repositorio de Hacks Informáticos</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Sin estado registrado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Prioridad para el segundo pago.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Asignar contenidos a monitores, con al menos 2 ya hechos.</p><p class="ph">Ajuste previsto: reestructurar los Hacks para incluir otros contenidos.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">11</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué piezas están listas para difundirse y cuáles esperan aprobación?</aside>
+</section>
+<section id="carteleras" class="slide ent" data-i="11" data-transition="fade">
+<p class="eyebrow">FRENTE 2 · PRODUCCIÓN Y DIFUSIÓN VISUAL · 3 DE 5</p>
+<h2>Carteleras UIFCE (física y digital)</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">100 %</p><p class="ph">OK.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p><p class="ph">Comentario en la hoja: explorar formas de conseguir recursos (convocatorias de extensión de VIE o Decanatura directa).</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">12</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué piezas están listas para difundirse y cuáles esperan aprobación?</aside>
+</section>
+<section id="salas" class="slide ent" data-i="12" data-transition="fade">
+<p class="eyebrow">FRENTE 2 · PRODUCCIÓN Y DIFUSIÓN VISUAL · 4 DE 5</p>
+<h2>Vigilancia y piezas de software disponible en cada sala</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Incluir los espacios de sala abierta al público en la pieza gráfica, difundir la información e incluir espacios de soporte técnico en la pieza.</p><p class="ph">Comentario: módulo listo, a la espera de producción de video para divulgarlo.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Ejecución de «Sala Abierta al Público».</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">13</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué piezas están listas para difundirse y cuáles esperan aprobación?</aside>
+</section>
+<section id="cursos-libres" class="slide ent" data-i="13" data-transition="fade">
+<p class="eyebrow">FRENTE 2 · PRODUCCIÓN Y DIFUSIÓN VISUAL · 5 DE 5</p>
+<h2>Línea gráfica de Cursos Libres</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">50 %</p><p class="ph">OK.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Actualizar la línea gráfica física con los cursos nuevos.</p><p class="ph">Ajuste previsto: meter SAP. Comentario en la hoja: agregar el curso nuevo «Introducción a SAP».</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">14</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué piezas están listas para difundirse y cuáles esperan aprobación?</aside>
+</section>
+<section id="microtalleres" class="slide ent" data-i="14" data-transition="fade">
+<p class="eyebrow">FRENTE 3 · EVENTOS Y COMUNIDAD · 1 DE 3</p>
+<h2>Microtalleres UIFCE</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Prioridad: cronograma consolidado de eventos generales ET 2026-2.</p><p class="ph">Comentario: Angelica 2, Jean Carlos y Juan Rincon; validado por corresponsabilidad.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Al menos 1 microtaller dictado y otro programado y difundido.</p><p class="ph">Comentario en la hoja: implementar certificado de asistencia.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">15</p>
+<aside>Dos o tres minutos: estado, avance y próximo paso. Pregunta guía: ¿qué se aprendió de lo ya ejecutado y qué se ajusta antes del cierre?</aside>
+</section>
+<section id="semana" class="slide ent" data-i="15" data-transition="fade">
+<p class="eyebrow">FRENTE 3 · EVENTOS Y COMUNIDAD · 2 DE 3</p>
+<h2>Semana UIFCE — primera edición</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Sin estado registrado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">75 %</p><p class="ph">Preparar la difusión de lo hecho en la semana como un recap.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Ejecutar la final de la hackatón o, al menos, definir la fecha final.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">16</p>
+<aside>Dos o tres minutos: estado, avance y próximo paso. Pregunta guía: ¿qué se aprendió de lo ya ejecutado y qué se ajusta antes del cierre?</aside>
+</section>
+<section id="aliados" class="slide ent" data-i="16" data-transition="fade">
+<p class="eyebrow">FRENTE 3 · EVENTOS Y COMUNIDAD · 3 DE 3</p>
+<h2>Red de Aliados Académicos UIFCE</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">75 %</p><p class="ph">Definir el proyecto concretamente, documentarlo y colaborar con AA para hacer networking.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">17</p>
+<aside>Dos o tres minutos: estado, avance y próximo paso. Pregunta guía: ¿qué se aprendió de lo ya ejecutado y qué se ajusta antes del cierre?</aside>
+</section>
+<section id="lineas-trabajo" class="slide ent" data-i="17" data-transition="fade">
+<p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 1 DE 6</p>
+<h2>Líneas de trabajo de Estrategias Tecnológicas</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Ninguno.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">18</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Nota: la hoja marca este entregable como completado con avance de corte 1 en 0 %; conviene aclararlo.</aside>
+</section>
+<section id="terminos" class="slide ent" data-i="18" data-transition="fade">
+<p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 2 DE 6</p>
+<h2>Cierre de Términos y Condiciones de Estrategias Tecnológicas</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">75 %</p><p class="ph">Prioridad: cambiar contexto, expectativas y entregables, y mostrar avance para el segundo pago.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Inicio de la documentación de los nuevos TyC.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">19</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme?</aside>
+</section>
+<section id="boletin" class="slide ent" data-i="19" data-transition="fade">
+<p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 3 DE 6</p>
+<h2>Boletín Digital UIFCE</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">0 %</p><p class="ph">Publicar.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="ph">Plantilla ya creada de los boletines.</p><p class="ph">Ideas para los mismos.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">20</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme?</aside>
+</section>
+<section id="ia-video" class="slide ent" data-i="20" data-transition="fade">
+<p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 4 DE 6</p>
+<h2>Repositorio de material con IA y automatización de producción de video</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">100 %</p><p class="ph">Notebook. Documentar formalmente el proyecto y establecer un formato estándar (prompt) para que todos los videos sean de calidad.</p><p class="ph">Proponer entregables concretos y alternativas (matriz DOFA).</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">21</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme?</aside>
+</section>
+<section id="repositorio" class="slide ent" data-i="21" data-transition="fade">
+<p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 5 DE 6</p>
+<h2>Repositorio documental permanente de Estrategias Tecnológicas</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">Completado</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">25 %</p><p class="ph">Colaborar con GC, establecer lineamientos de calidad, efectivos y de mejora para ambos repositorios.</p><p class="ph">Comentario: acompañamiento a GC para infografía con guía interactiva.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">22</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Nota: la hoja marca este entregable como completado con avance de 25 %; conviene aclararlo.</aside>
+</section>
+<section id="interarea" class="slide ent" data-i="22" data-transition="fade">
+<p class="eyebrow">FRENTE 4 · GESTIÓN Y NUEVOS PROYECTOS · 6 DE 6</p>
+<h2>Acompañamiento Interárea</h2>
+<div class="cards">
+<div class="card"><p class="k">ESTADO</p><p class="val">En proceso</p></div>
+<div class="card"><p class="k">AVANCE</p><p class="val">100 %</p><p class="ph">ET en Marcha. Formalizar la estrategia e implementarla en la cultura de coordinación.</p><p class="ph">Comunicar la nueva estrategia y la dinámica al equipo, y también el por qué, el para qué y el para quién.</p></div>
+<div class="card"><p class="k">PRÓXIMO PASO</p><p class="dim">Sin entregable de tercer corte definido en la hoja.</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">23</p>
+<aside>Dos minutos: estado, avance y próximo paso. Pregunta guía: ¿qué debe quedar documentado para el empalme? Nota: la hoja marca este entregable como en proceso con avance de 100 %; conviene aclararlo.</aside>
+</section>
+<section id="decisiones" class="slide dark" data-i="23" data-transition="fade">
+<p class="eyebrow">DISCUSIÓN · 10 MIN</p>
+<h2>Decisiones y apoyos requeridos</h2>
+<div class="cards">
+<div class="dcard"><h3>Decisiones</h3><p class="lbl">¿Qué entregable necesita una definición hoy?</p></div>
+<div class="dcard"><h3>Bloqueos</h3><p class="lbl">¿Qué depende de otra persona o de otra área?</p></div>
+<div class="dcard"><h3>Apoyos</h3><p class="lbl">¿Qué recursos o coordinación faltan para cerrar el semestre?</p></div>
+</div>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">24</p>
+<aside>Retome los temas anotados durante los frentes. Registre cada decisión con responsable y fecha en la siguiente diapositiva. Cierre el bloque a los 10 minutos.</aside>
+</section>
+<section class="slide" data-i="24" id="compromisos" data-transition="fade">
+<p class="eyebrow">CIERRE · 5 MIN</p>
+<h2>Compromisos y próximos pasos</h2>
+<table>
+<tr><th style="width:56%">Acción</th><th style="width:24%">Responsable</th><th style="width:20%">Fecha</th></tr>
+<tr><td>[acción acordada]</td><td>[responsable]</td><td>[fecha]</td></tr>
+<tr><td>[acción acordada]</td><td>[responsable]</td><td>[fecha]</td></tr>
+<tr><td>[acción acordada]</td><td>[responsable]</td><td>[fecha]</td></tr>
+<tr><td>[acción acordada]</td><td>[responsable]</td><td>[fecha]</td></tr>
+</table>
+<p class="foot">Reunión de coordinación · Estrategias Tecnológicas</p>
+<p class="pg">25</p>
+<aside>Lea en voz alta cada compromiso y confirme responsable y fecha. Acuerde cuándo se enviará la minuta y cuándo será la próxima revisión de avance.</aside>
+</section>
+</div></div>
+<div id="bar"><button id="prev" aria-label="Anterior">&larr; Anterior</button><span id="count"></span><button id="next" aria-label="Siguiente">Siguiente &rarr;</button><button id="fs" aria-label="Pantalla completa">Pantalla completa</button></div>
+<script>
+(function(){
+var S=[].slice.call(document.querySelectorAll('.slide')),n=0,frame=document.getElementById('frame'),vp=document.getElementById('viewport');
+function fit(){var k=Math.min(vp.clientWidth/1920,vp.clientHeight/1080);frame.style.transform='scale('+k+')';}
+function go(i){n=Math.max(0,Math.min(S.length-1,i));S.forEach(function(s,j){s.classList.toggle('on',j===n)});document.getElementById('count').textContent=(n+1)+' / '+S.length;try{history.replaceState(null,'','#'+(n+1))}catch(e){}}
+document.getElementById('prev').onclick=function(){go(n-1)};
+document.getElementById('next').onclick=function(){go(n+1)};
+document.getElementById('fs').onclick=function(){var d=document.documentElement;if(document.fullscreenElement){document.exitFullscreen()}else if(d.requestFullscreen){d.requestFullscreen()}};
+document.addEventListener('keydown',function(e){if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' ')go(n+1);else if(e.key==='ArrowLeft'||e.key==='PageUp')go(n-1);else if(e.key==='Home')go(0);else if(e.key==='End')go(S.length-1)});
+var x0=null;document.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+document.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(n+(dx<0?1:-1));x0=null},{passive:true});
+window.addEventListener('resize',fit);fit();
+var h=parseInt((location.hash||'').slice(1),10);go(isNaN(h)?0:h-1);
+})();
+</script></body></html>

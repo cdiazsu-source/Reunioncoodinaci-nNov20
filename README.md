@@ -2,6 +2,8 @@
 
 **20 de noviembre de 2026** · Avance de la planeación 2026-2
 
+**▶ [Ver la presentación](https://cdiazsu-source.github.io/Reunioncoodinaci-nNov20/)** (diapositivas con su diseño; usa las flechas del teclado o los botones)
+
 Datos tomados de la hoja «Estrategias Tecnológicas-Planeación 2026-2».
 
 ## Objetivos
