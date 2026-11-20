@@ -75,7 +75,8 @@ p { font-size: 32px; line-height: 1.4; margin: 0; }
 .bl .pic img.b1 { height: 270px; }
 .bl .pic img.b2 { height: 140px; }
 .bl .top .card .ph, .bl .wide .ph { font-size: 26px; }
-.bl .wide .btn { display: block; margin-top: 20px; text-align: center; font-size: 26px; font-weight: 600; color: #F6F4EE; background: #167065; padding: 16px 12px; border-radius: 12px; text-decoration: none; }
+.bl .wide .btns { display: flex; gap: 16px; margin-top: 20px; }
+.bl .wide .btn { display: block; flex: 1; text-align: center; font-size: 26px; font-weight: 600; color: #F6F4EE; background: #167065; padding: 16px 12px; border-radius: 12px; text-decoration: none; }
 .cr h2, .sa h2 { margin-bottom: 24px; }
 .cr .top .est, .sa .top .est { flex: none; width: 300px; }
 .cr .top .card, .cr .wide, .sa .top .card, .sa .wide { padding: 32px; }
