@@ -25,7 +25,6 @@ Datos tomados de la hoja «Estrategias Tecnológicas-Planeación 2026-2».
 
 | Entregable | Estado | Avance | Próximo paso |
 |---|---|---|---|
-| **Posicionamiento prioritario de LinkedIn UIFCE** | En proceso | 50 %<br>Inicia la difusión; falta colocar la foto de portada UIFCE. | Hacer seguimiento de métricas sobre cómo han avanzado las interacciones de LinkedIn en comparación con los últimos 6 meses. |
 | **Creación de la cuenta de TikTok UIFCE** | En proceso | 50 %<br>Esperando el correo de redes. | Al menos 3 videos subidos.<br>Difusión de la nueva red por cualquier medio (WhatsApp, LinkedIn, carteleras físicas). |
 | **Consolidación y cierre de oficialización de YouTube UIFCE** | Sin estado registrado | 0 %<br>Nada. | Sin entregable de tercer corte definido en la hoja. |
 | **Blog UIFCE** | Sin estado registrado | 0 %<br>Prioridad: despliegue. Revisar documentación. | Revisión del blog y despliegue de los cambios. |
